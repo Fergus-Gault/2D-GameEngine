@@ -22,7 +22,7 @@ find_package(SFML CONFIG REQUIRED COMPONENTS system window graphics network)
 find_package(box2d CONFIG REQUIRED)
 
 # Add source to this project's executable.
-add_executable (2D-GameEngine   "include/Engine/GameEngine.h" "src/Engine/GameEngine.cpp" "include/Utils/utils.h")
+add_executable (2D-GameEngine   "include/Engine/GameEngine.h" "src/Engine/GameEngine.cpp" "include/Utils/utils.h" "include/Graphics/GraphicsComponent.h" "include/Engine/GameObject.h" "src/Graphics/GraphicsComponent.cpp" "include/Physics/PhysicsComponent.h" "src/Physics/PhysicsComponent.cpp")
 
 
 # Link libraries
